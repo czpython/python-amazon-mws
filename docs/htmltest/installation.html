@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Installation &mdash; Python Amazon MWS 0.3 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.3',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Python Amazon MWS 0.3 documentation" href="index.html" />
+    <link rel="next" title="Tutorials" href="tutorial_1.html" />
+    <link rel="prev" title="Welcome to Python Amazon MWS’s documentation!" href="index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="tutorial_1.html" title="Tutorials"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to Python Amazon MWS’s documentation!"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Python Amazon MWS 0.3 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="installation">
+<h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
+<p>This process assumes you have already created an Amazon Marketplace Webservices (MWS) account.</p>
+<div class="section" id="setup-api-access">
+<h2>Setup API Access<a class="headerlink" href="#setup-api-access" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p class="first">Go to <a class="reference external" href="https://developer.amazonservices.com">https://developer.amazonservices.com</a> (or .ca/.de/.jp/.fr/.co.uk)</p>
+</li>
+<li><p class="first">Click on the <em>Sign up for MWS</em> button and follow the instructions.</p>
+</li>
+<li><dl class="first docutils">
+<dt>At the end you must have a screen (print it and save it !)</dt>
+<dd><dl class="first docutils">
+<dt>This screen will contain the following credentials:</dt>
+<dd><ul class="first last">
+<li><p class="first">Merchant Id (or Seller Id) - This is your unique merchant/seller ID</p>
+</li>
+<li><dl class="first docutils">
+<dt>Marketplace Id - This is the id for the marketplace you are selling on.</dt>
+<dd><p class="first last">It allows you to target specific markerplaces (US, Japan, Europe, etc..) in which you are authorized to sell.</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">Access key - Used to identify the user of this API.</p>
+</li>
+<li><p class="first">Secret key - This is used to authenticate every request sent to Amazon</p>
+</li>
+</ul>
+</dd>
+</dl>
+<p class="last">Make sure to keep this confidential as these credentials can potentially compromise your account.</p>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="test-api-access">
+<h2>Test API Access<a class="headerlink" href="#test-api-access" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Go to <a class="reference external" href="https://mws.amazonservices.com/scratchpad/index.html">https://mws.amazonservices.com/scratchpad/index.html</a> (you can change the domain .com like before)</li>
+<li>In API selection, choose <strong>Products</strong> and <em>ListMatchingProducts</em></li>
+<li>In Authentication put your credentials.</li>
+<li>Input the desired MarketplaceId and put &#8220;python&#8221; in Query</li>
+<li>Click on the submit button</li>
+</ul>
+<p>If everything is good, you can see a response 200 and a list of item matching python</p>
+</div>
+<div class="section" id="install-mws-python-api">
+<h2>Install MWS Python API :)<a class="headerlink" href="#install-mws-python-api" title="Permalink to this headline">¶</a></h2>
+<p>From PyPi</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>pip install python-amazon-mws
+</pre></div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Installation</a><ul>
+<li><a class="reference internal" href="#setup-api-access">Setup API Access</a></li>
+<li><a class="reference internal" href="#test-api-access">Test API Access</a></li>
+<li><a class="reference internal" href="#install-mws-python-api">Install MWS Python API :)</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Welcome to Python Amazon MWS&#8217;s documentation!</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="tutorial_1.html"
+                        title="next chapter">Tutorials</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/installation.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="tutorial_1.html" title="Tutorials"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to Python Amazon MWS’s documentation!"
+             >previous</a> |</li>
+        <li><a href="index.html">Python Amazon MWS 0.3 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, Paulo Alvarado.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2b3.
+    </div>
+  </body>
+</html>
