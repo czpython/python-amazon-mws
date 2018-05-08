@@ -1,8 +1,7 @@
 # ** DISCLAIMER **
-This API is in constant development. Do not rely on it too much until its in stable release.
-All except for the last two APIs ( InboundShipment and OutboundShipment ) are complete.
-Help towards completing this last two APIs would be greatly appreciated.
-I will mark this as stable 1.0 once all tests have been completed.
+THIS API IS NO LONGER MAINTAINED.
+
+PLEASE HEAD TO https://github.com/python-amazon-mws/python-amazon-mws
 
 # Python Amazon MWS
 
